@@ -1,0 +1,107 @@
+body {
+  display: grid;
+  height: 100vh;
+  gap: 30px;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 20vh;
+  background-color: #afdceb;
+  display: grid;
+  place-items: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  gap: 15px;
+  justify-content: center;
+}
+
+#category-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#category-container .category {
+  width: 20%;
+  min-width: 150px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #008080;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#list-container {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-item {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #008080;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.list-item .image {
+  background-color: #86c5d8;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.list-item .name {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 15px;
+  font-size: 1.5rem;
+}
+
+.list-item .category {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+footer {
+  width: 100%;
+  height: 20vh;
+  background-color: #afdceb;
+  display: grid;
+  place-items: center;
+  font-size: 1.2rem;
+}
